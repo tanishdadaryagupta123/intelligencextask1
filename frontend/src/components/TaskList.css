@@ -1,0 +1,48 @@
+/* Task List Styles */
+.task-list {
+  margin-top: 16px;
+}
+
+.task-section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  color: #374151;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Task List Messages */
+.task-list-message {
+  text-align: center;
+  padding: 48px 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-list-message.loading {
+  color: #6b7280;
+}
+
+.task-list-message.error {
+  color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.task-list-message.empty {
+  color: #6b7280;
+}
+
+.task-list-message.empty p:first-child {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.task-list-message.empty p:last-child {
+  font-size: 14px;
+}
